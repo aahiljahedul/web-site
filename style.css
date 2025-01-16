@@ -1,0 +1,33 @@
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button-primary-1 {
+    background-color:white;
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+    color: rgb(64, 148, 148);
+    margin: 0px 10px;
+    width: 116px;
+    height: 52px;
+    flex-direction: row;
+}
+
+.hero {
+    width: 1280px;
+    height: 560px;
+    box-sizing: content-box;
+    display: flex;
+    gap: 64;
+    align-items: center;
+    background-color: rgb(131, 199, 177);
+    padding: 80px 100px 80px 100px;
+    justify-content: center;
+    flex-direction: row;
+    margin: 80px 0px;
+    border-radius: 24px;
+
+
+}
