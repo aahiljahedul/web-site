@@ -14,6 +14,7 @@ nav {
     height: 52px;
     flex-direction: row;
     cursor: pointer;
+    
 }
 
 .hero {
@@ -45,6 +46,7 @@ nav {
     border-color:hwb(160 16% 61%) ;
     cursor: pointer;
     background-color: rgb(26, 187, 109);
+    border: none;
 
 }
 .hero-image {
@@ -146,3 +148,99 @@ nav {
     background-color: rgb(255, 194, 57);
     border: none;
 }
+.card-speech {
+    background-color: azure;
+    background-image: url('/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    margin: 32px;
+    border-radius: 20px;
+    
+    
+}
+.card-spe {
+    width: 1280px;
+    height: 256px;
+    left: 24px;
+    padding: 24px;
+
+}
+table{
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 1px solid;
+    padding: 13px;
+}
+thead{
+    border: 1px;
+    background-color:rgb(198, 228, 214);
+
+}
+.action-button {
+    background-color:rgb(198, 228, 214) ;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    top: 252px;
+    left: 32px;
+}
+.table-qs{
+    width: 1280px;
+    height: 300px;
+    box-sizing: border-box;
+    margin: 32px;
+    background-color: white;
+}
+.table-box{
+    justify-content: space-between;
+    width: 1180px;
+    
+}
+.news-item-1 {
+    display: flex;
+    padding:24px;
+
+    justify-content: space-around;
+    align-items: center;
+}
+.news-box{
+    width: 1280px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    margin: 32px;
+}
+.resent-news{
+    padding: 24px;
+}
+.news-image {
+    border-radius: 24px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+
+    
+    
+
+
+
+
+
