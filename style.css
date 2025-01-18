@@ -16,6 +16,9 @@ nav {
     cursor: pointer;
     
 }
+.button-primary-1:hover{
+    background-color: aquamarine;
+}
 
 .hero {
     width: 1280px;
@@ -48,6 +51,9 @@ nav {
     background-color: rgb(26, 187, 109);
     border: none;
 
+}
+.button-primary-2:hover{
+    background-color: cadetblue;
 }
 .hero-image {
     width: 474.03px;
@@ -94,6 +100,9 @@ nav {
     border: none;
     
 }
+.card-btn-1:hover{
+    background-color: rgb(19, 62, 47);
+}
 .card-2{
     background-color:rgb(198, 228, 214);
     width: 443px;
@@ -121,6 +130,9 @@ nav {
     
     
 }
+.card-btn-2:hover{
+    background-color: rgb(19, 62, 47);
+}
 .card-3{
     background-color: rgb(247, 235, 207);
     width: 443px;
@@ -147,6 +159,9 @@ nav {
     color: white;
     background-color: rgb(255, 194, 57);
     border: none;
+}
+.card-btn-3:hover{
+    background-color: rgb(19, 62, 47);
 }
 .card-speech {
     background-color: azure;
@@ -185,7 +200,12 @@ thead{
     border-radius: 8px;
     top: 252px;
     left: 32px;
+    
 }
+.action-button:hover{
+    background-color: rgb(19, 62, 47);
+}
+
 .table-qs{
     width: 1280px;
     height: 300px;
@@ -238,6 +258,12 @@ thead{
     left: 32px;
     border: none;
 
+
+}
+.news-button:hover{
+    background-color: rgb(19, 62, 47);
+    
+
 }
 .donate {
     text-align: center;
@@ -261,6 +287,8 @@ thead{
     left: 32px;
     border-radius: 8px;
     font-weight: bold;
+    border: none;
+    background-color: white;
     
 
 }
@@ -271,6 +299,9 @@ input{
     width: 500px;
     text-align: center;
     margin: 35px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
 
 }
 .donate-button-2{
@@ -280,7 +311,76 @@ input{
     border-radius: 8px;
     background-color: rgb(9, 161, 92);
     border: none;
+    color: white;
 }
+
+    
+.sub-btn {
+    width: 122px;
+    height: 41px;
+    padding: 8px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color:rgb(9,161,92) ;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    
+
+
+    
+}
+.subscribe {
+    background-color:rgb(198, 228, 214);
+    width: 1280px;
+    padding: 32px;
+    margin: 24px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.img-content {
+    text-align: center;
+    gap: 24px;
+    background-color: whitesmoke;
+    height: 105px;
+    align-items: center;
+    align-content: center;
+    
+}
+
+    
+    
+
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+input[type="text"]
+{
+    background-color: white;
+    position: relative;
+    padding: 12px;px;
+    
+}
+input[type="subscribe"]
+{
+    width: 200px;
+    border: none;
+    position: relative;
+    right: 77px;
+    background-color: rgb(9,161,92);
+    
+
+
+}
+
 
 
 
