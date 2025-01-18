@@ -165,7 +165,7 @@ nav {
 }
 .card-speech {
     background-color: azure;
-    background-image: url('/assets/quote-bg.png');
+    background-image: url('../web-site/assets/quote-bg.png');
     background-repeat: no-repeat;
     margin: 32px;
     border-radius: 20px;
